@@ -20,19 +20,31 @@ li > a:hover {
   color: pink;
 }
 
- li:first-child::first-letter {
+li:first-child::first-letter {
   font-weight: bold;
   font-size: 120%;
 }
 
 a[href*="https://bcit"]
 {
-    background-color: yellow;
+  background-color: yellow;
 }
 
- img{
-    float: left;
- }
- .below{
-    clear: left;
- }
+img {
+  float: left;
+}
+.below {
+  clear: left;
+}
+.target {
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.container {
+  border: 2px gray solid;
+  position: relative;
+}
